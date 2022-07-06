@@ -54,7 +54,6 @@ print "$_ ,\n"  if(/A*s+/); # printing if name contains A -> 0 or more , s -> co
 }
 
 #meta characters : {} , [] , ^ , $ , . , | , * , + , ? , \   -> these all meta characters can not match simply , so we need to use backslash just before these metacharacter
-# dot . matches any character except newline \n .
 
 my $s = "expression : 2*2";
 #print "Match\n " if $s =~ /*/; # throws error :  Quantifier follows nothing in regex; marked by <-- HERE in m/* <-- HERE / at regex.pl line 59.

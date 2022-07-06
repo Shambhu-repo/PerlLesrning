@@ -1,0 +1,2 @@
+my $CMD = "mkdir dev"
+my @excecute = `$CMD 2>$1`    // mening it is executing the command what we gave in system

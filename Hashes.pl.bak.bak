@@ -68,9 +68,9 @@ for my $test (sort keys %hash_fruits1){
 	$hash_fruits1{Apple} = "Red_ripe";
 
 	}
-	else{
-				$hash_fruits1{Apple} = "Red1";
-}
+	#else{
+	#			$hash_fruits1{Apple} = "Red1";
+	#}
 			print" $test and  $hash_fruits1{$test}\n";
 
 }
